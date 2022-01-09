@@ -9,17 +9,9 @@ import './header.css';
 const Header = () => {
     const history = useHistory();
     const appContext = useContext(AppContext);
-
-    useEffect(() => {
-        // $('#sidebar-toggle').on('click', function(){
-        //     $('#m-sidebar').toggleClass('sidebar-collapse');
-        //     $('#m-body').toggleClass('m-body-expand');
-        //   });
-        console.log(appContext.emailList);
-    }, [])
     
     return  <nav className="navbar fixed-top top-nav-bar " id="top-nav">
-    <div className="container-fluid">
+    <div className="container-fluid px-0">
         <div className="top-nav-header">
             <div className="jcb">
                 <button id="sidebar-toggle" className="btn btn-sm theme-bg px5 cfff aic"><i className="fa fa-bars"></i></button>

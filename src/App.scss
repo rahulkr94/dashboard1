@@ -10,6 +10,7 @@ body {
 
   .main-body-content {
     background-color: #f3f3f4 !important;
+    min-height: 100vh;
   }
 
   .main-sidebar{
@@ -23,8 +24,12 @@ body {
     overflow-y: auto;
     white-space: nowrap;
     height: 100%;
-    z-index: 1;
+    z-index: 1049;
     border-right: 1px solid #ddd;
+    transition: all 0.5s ease;
+}
+.side-menu-container{
+  width: 100%;
 }
 .navbar-default {
     background-color: #FFF;
@@ -38,8 +43,7 @@ body {
 .main-body{
     margin-top: 40px;
     position: relative;
-    min-height: 100%;
-    width: 100%;
+    min-height: 100vh;
 }
 
 .navbar-default {
@@ -68,16 +72,29 @@ body {
   li {
     display: block;
     width: 100%;
-    padding: 10px 0;
     a {
-      padding: 15px;
+      padding: 10px 20px;
       color: #bebebe;
+      align-items: center;
+      display: flex;
       text-decoration: none !important;
       .glyphicon, .fa {
         margin-right: 8px;
       }
     }
   }
+  li:hover {
+    padding-left: 5px;
+    background-color: #2b4257;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    a{
+      color: #fff;
+    }
+}
 }
 .active {
   color: #fff !important;
@@ -127,13 +144,18 @@ body {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-// .sidebar-collapse{
-//   left: -150px !important;
-//   position: fixed;
-// }
-// .m-body-expand{
-//   margin-left: 50px;
-// }
+.sidebar-collapse{
+  left: -150px !important;
+  position: fixed;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.m-body-expand{
+  margin-left: 50px;
+}
 
 .category-circle{
   height:10px;
