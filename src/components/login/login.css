@@ -1,0 +1,30 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+.login-form-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login-header{
+    height: 50px;
+    width: 100%;
+    background-color: #283847;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+}
+.login-form{
+    border: 1px solid #283847;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}

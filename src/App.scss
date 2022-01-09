@@ -1,0 +1,142 @@
+
+body {
+    margin-top: 50px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #39464e;
+  }
+
+  .main-body-content {
+    background-color: #f3f3f4 !important;
+  }
+
+  .main-sidebar{
+    width: 200px;
+    background-color: #283847;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    white-space: nowrap;
+    height: 100%;
+    z-index: 1;
+    border-right: 1px solid #ddd;
+}
+.navbar-default {
+    background-color: #FFF;
+    margin-left: 200px;
+}
+
+/* main-body */
+.main-body{
+    margin: 40px 0px 0px 200px;
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  margin-left: 200px;
+}
+
+.navbar-header {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #bebebe;
+}
+
+.top-nav-header{
+  width: 100%;
+  color: #bebebe;
+}
+
+.navbar-nav {
+  .panel {
+    border: 0 none;
+    box-shadow: none;
+    margin: 0;
+    background: inherit;
+  }
+  li {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    a {
+      padding: 15px;
+      color: #bebebe;
+      text-decoration: none !important;
+      .glyphicon, .fa {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+.active {
+  color: #fff !important;
+  a {
+    color: #fff !important;
+  }
+}
+
+
+// table
+.email-table{
+  font-size: 13px;
+}
+.et-action-box{
+  padding: 2px 10px;
+  border-radius: 4px;
+  color: #999;
+}
+.email-body-menu ul{
+  width: 269px;
+  left: -36px;
+  position: relative;
+
+}
+.email-body-menu ul li{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    list-style: none;
+    border-bottom: 1px solid #ddd !important;
+    font-size:13px;
+}
+.email-body-menu ul li a{
+  color: #555 !important;
+  text-decoration: none !important;
+}
+.mail-count-badge {
+  color: #fff !important;
+  padding: 0px 5px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+// .sidebar-collapse{
+//   left: -150px !important;
+//   position: fixed;
+// }
+// .m-body-expand{
+//   margin-left: 50px;
+// }
+
+.category-circle{
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
