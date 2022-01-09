@@ -32,10 +32,14 @@ body {
 }
 
 /* main-body */
+.main-body-top{
+  margin-left: 200px;
+}
 .main-body{
-    margin: 40px 0px 0px 200px;
+    margin-top: 40px;
     position: relative;
     min-height: 100%;
+    width: 100%;
 }
 
 .navbar-default {

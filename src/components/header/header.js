@@ -18,7 +18,7 @@ const Header = () => {
         console.log(appContext.emailList);
     }, [])
     
-    return  <nav className="navbar navbar-default fixed-top">
+    return  <nav className="navbar fixed-top top-nav-bar " id="top-nav">
     <div className="container-fluid">
         <div className="top-nav-header">
             <div className="jcb">

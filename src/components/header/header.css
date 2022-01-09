@@ -3,3 +3,7 @@
     top: -3px;
     right: -9px;
 }
+.top-nav-bar{
+    left: 200px !important;
+    background-color: #fff;
+}
