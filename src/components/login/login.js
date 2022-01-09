@@ -14,6 +14,7 @@ const Login = () => {
     })
     const [errorMessage, setErrorMessage] = useState("");
 
+    // handle login submit
     const handleSubmit = (e) => {
         try {
             e.preventDefault();
